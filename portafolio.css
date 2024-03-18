@@ -1,0 +1,221 @@
+body {
+  
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -1000;
+
+}
+
+header {
+  padding: 10px;
+  background-color: rgba(153, 52, 52, 0.456);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerName {
+  background-color:  rgb(0, 0, 0);
+  padding: 10px;
+  color: wheat;
+  font-size: 25px;
+  text-decoration: none;
+  border: 2px solid wheat;
+  border-radius: 2rem;
+}
+
+.headerName:hover {
+  color: rgb(0, 115, 255);
+  transform: rotateX(1080deg);
+  transition: 1s;
+}
+
+nav {
+  display: flex;
+  border: 2px solid wheat;
+  border-radius: 2rem;
+  padding: 0.75rem, 2rem;
+  background-color: blck;
+  height: 40px;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+
+  
+}
+
+nav a{
+  display: flex;
+  font-size: 20px;
+  color: wheat;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 115, 255);
+  transform: rotateX(720deg);
+  transition: 0.5s;
+}
+
+
+
+
+h2 {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+
+}
+
+hr {
+height: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.aboutMe {
+  display: flex;
+  background-color: rgba(153, 52, 52, 0.456);
+  justify-content: space-between;
+}
+
+.dniFoto{
+  display: flex;
+  margin-left: 100px;
+  width: 15%;
+  height: auto;
+}
+
+.text {
+  display: flex;
+  color: wheat;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+
+
+.icono-gmail{
+  margin-left: 500px;
+  opacity: 0.4;
+}
+
+.icono-gmail:hover {
+  opacity: 1;
+  transform: scale(1.5);
+  transition: 0.5s;
+  }
+
+
+.icono-linkedin{
+  margin-right: 500px;
+  opacity: 0.4;
+}
+
+.icono-linkedin:hover{
+  opacity: 1;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.icono-mobil {
+  margin-right: 100px;
+  opacity: 0.4;
+}
+
+.icono-githbub {
+  opacity: 0.4;
+}
+
+.icono-githbub:hover {
+  opacity: 1;
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+
+.cardConjunt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  padding-top: 17px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: rgba(0, 255, 255, 0.451);
+  border: 3px solid wheat;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 4rem;
+  padding-bottom: 17px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.tituloCard {
+  color: wheat;
+  font-size: 24px;
+}
+
+.textoProyecto {
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.imagenCard {
+  width: 80%;
+  box-shadow: 100px;
+}
+
+.enlaceSaberMas {
+  display: flex;
+  margin-top:20px;
+  background-color: rgb(12, 69, 96);
+  padding: 10px;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  color: wheat;
+}
+
+.enlaceSaberMas:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
